@@ -1,0 +1,323 @@
+html,body{
+  margin:0px;
+  padding-top:0px;
+  
+}
+.first{
+  border: 1px solid #000;
+  height: 340px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.navbar{ 
+  background-color:#ADD8E6 ;
+}
+.chat .chatnavbar{ 
+  background-color: grey;
+}
+
+.navbar .header{
+  font-size:55px;
+  margin:0px; 
+  color:blue;
+  text-align:center;
+}
+
+.chatnavbar .header{
+  font-size:45px;
+  margin:0px; 
+  color:blue;
+  text-align:center;
+  
+}
+
+.navbar .material-icons{
+ font-size: 3.5rem;
+  float:right;    
+}
+
+
+.sidebar{
+ position:fixed;
+  border-right:1px solid #FFBB73;
+  width:190px;
+  height:100%;
+  top:0;
+  z-index:1;
+  left:0;
+  overflow-x:hidden;
+  background: #FFBB73;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25)
+    
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+ .sidebar-link{
+  display:flex;
+  color:blue;
+  align-items: center;
+  padding:13px;
+  text-decoration: none;
+  background: #FFBB73;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-bottom: 1px solid #1E90FF;
+   height:80px;
+   }
+
+.sidebar-link .material-icons{
+  margin-right: 15px;
+}
+
+.sidebar-link:hover{
+  background:#FF7F50;
+}
+
+ .sidebar-link1{
+  display:flex;
+  color:blue;
+  align-items: center;
+  padding:13px;
+  text-decoration: none;
+  background: #FF7F50;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-bottom: 1px solid #1E90FF;
+   height:80px;
+   }
+
+.sidebar-link1 .material-icons{
+  margin-right: 15px;
+}
+
+.sidebar-link1:hover{
+  background:#FF7F50;
+}
+
+.profile .material-icons {
+  margin-left:190px;
+  font-size: 9rem;
+  color:grey; 
+  float: left;  
+}
+
+.info {
+  float: left; 
+ margin-right: 30px;
+}
+
+.progress-circle .circle {
+  position: relative;
+  width:150px;
+  height:150px;
+  float:left;
+  margin-right: 50px;
+  margin-top : 11px;
+}
+
+.progress-circle .circle svg {
+  position: relative;
+  width:150px;
+  height:150px;  
+}
+
+.progress-circle .circle svg circle {
+  fill:none;
+  width:150px;
+  height:150px;
+  stroke-width: 10;
+  stroke: #000000;
+  transform:translate(5px,5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset:440;
+  
+}
+.progress-circle .circle svg circle:nth-child(1) {
+   stroke: #ECECEC;
+  stroke-dashoffset:0;
+}
+.progress-circle .circle svg circle:nth-child(2) {
+   stroke: #03a9f4;
+  stroke-dashoffset:calc(440 - (440*3)/100)
+}
+.progress-circle .circle .progress {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  color: blue;
+  }
+
+.progress-circle .text {
+  color: grey;
+  text-align:center;
+}
+
+.line-progress  .lines {
+ position:relative;
+  width: 210px;
+  height: 30px;
+  background-color: #ADD8E6;
+  margin-left: 2px;
+  float:left;
+  margin-top:80px;
+  border-radius:1.5em; 
+     
+}
+
+.line-progress  .lines::before {
+ content:attr(data-label);
+  display:flex;
+  align-items:center;
+  width:5%;
+  min-width:2rem;
+  max-width: calc(100% - 1 em);
+  background-color: grey;
+  border-radius: 0.8em;
+  padding:1em;
+  top:0.5em;
+  bottom:0.5em;
+  left:0.5em;
+  
+     
+}
+
+
+.line-progress .lineinfo{
+  color: solid grey; 
+  text-align:center;  
+} 
+
+.chat{
+  margin-left:1020px;
+  width: 335px;
+  height: 250px;
+  border: 7px solid blue;
+  
+}
+
+.enter{
+  margin-top: 70px;
+  width:80%;
+  float:left;
+  text-align:center;
+}
+
+.input{
+  margin-top: 70px;
+  width:17%;
+  float:left;
+  text-align:center;
+}
+.message .messages{
+margin-top: 20px;
+  width: 210px;
+  height: 40px;
+  border: 1px solid blue;
+  margin-left:10px;
+  background-color: #ADD8E6;
+}
+
+
+.degree {
+  margin-left:220px;
+  font-size: 2rem;
+  color:blue; 
+  text-align: center;
+  margin-top:0px;
+  
+}
+
+ .box{
+  width: 90px;
+  height: 30px;
+  border: 1px solid blue;
+  margin-left:240px;
+  margin-top:0px;
+  background-color:#ADD8E6;
+}
+
+ .text{
+  margin-left:240px;
+}
+.second{
+  position: relative;
+}
+.pfirst{
+  margin-left:220px;
+  color:#32527B;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  border:1px solid #000;
+}
+.preprof{
+  margin-left:220px;
+  margin-top: 20px;
+  color:#B5651D;
+  border: 1px solid #000;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  margin-buttom: 20px;  
+}
+
+.prof{
+  margin-left:220px;
+  color:#32527B;
+  margin-top: 20px;
+  border: 1px solid #000;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  margin-buttom: 20px;  
+}
+
+.elective{
+  margin-left:220px;
+  margin-top: 20px;
+  color:#B5651D;
+  border: 1px solid #000;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.course {
+  margin-top:22px;
+  float:left;
+  margin-left:90px;
+  width: 120px;
+  height: 60px;
+  border: 1px solid blue; 
+  background-color:#d3d3d3;
+}
+
+.course2 {
+  margin-top:22px;
+  float:left;
+  margin-left:90px;
+  width: 120px;
+  height: 60px;
+  border: 1px solid blue; 
+  background-color: #ADD8E6;
+ 
+}
